@@ -1,0 +1,22 @@
+{
+  "name": "kt",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "npx nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-fileupload": "^1.5.2",
+    "mongoose": "^9.11.4",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
